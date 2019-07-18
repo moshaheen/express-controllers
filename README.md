@@ -1,23 +1,28 @@
-[![build status](https://secure.travis-ci.org/JulianDuniec/express-controllers.png)](http://travis-ci.org/JulianDuniec/express-controllers)
-express-controllers
+win-express-controllers
 ===================
 
+The original version of this is coded by Julian Duniec, I'd to create a new fork since there was no more contribution from him and wanted to get this working on a windows env, specifically subfolders for controllers which was not working
+
+This is the orignal description of the express-controllers: 
 This is the step needed to transform expressjs into a complete MVC framework, by adding Controller-support. No more hassling with code in your route. express-controllers automatically set up routing based on your controllers.
 
 
-### Contributors
 
+### Contributors
+Mo Shahin https://github.com/moshaheen/
+
+Forked from
 Julian Duniec http://github.com/julianduniec  
 
 ## Installation
 
-    $ npm install express-controller
+    $ npm install win-express-controller
 
 ## Usage
 
 
 ```js
-var expressControllers = require('express-controller');
+var expressControllers = require('win-express-controller');
 
 //Your express-app
 var app = express();
@@ -32,7 +37,7 @@ expressControllers
 ## Express 4 Usage
 
 ```js
-var expressControllers = require('express-controller');
+var expressControllers = require('win-express-controller');
 
 var app = express();
 

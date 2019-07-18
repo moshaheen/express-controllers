@@ -1,6 +1,6 @@
 {
-  "name": "express-controller",
-  "version": "0.3.2",
+  "name": "win-express-controller",
+  "version": "1.0.1",
   "dependencies": {
     "file": "^0.2.2",
     "get-parameter-names": "^0.3.0",
@@ -14,11 +14,11 @@
   "engines": {
     "node": "*"
   },
-  "author": "Julian Duniec <julian.duniec@gmail.com> (http://duniec.se/cv/)",
+  "author": "Fixes to suport windows env, Fork from Julian Duniec <julian.duniec@gmail.com> (http://duniec.se/cv/)",
   "description": "Framework for controllers in express",
   "repository": {
     "type": "git",
-    "url": "git://github.com/JulianDuniec/express-controllers.git"
+    "url": "git://github.com/moshaheen/win-express-controllers"
   },
   "main": "index.js"
 }
